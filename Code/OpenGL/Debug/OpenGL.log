@@ -1,0 +1,7 @@
+﻿  SourceMain.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\opengl_wrap\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\users\lander\onedrive\work\final year project\opengl\opengl\sourcemain.cpp(156): warning C4018: '<': signed/unsigned mismatch
+c:\users\lander\onedrive\work\final year project\opengl\opengl\sourcemain.cpp(369): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\lander\onedrive\work\final year project\opengl\opengl\sourcemain.cpp(386): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+LINK : fatal error LNK1168: cannot open C:\Users\Lander\OneDrive\Work\Final Year Project\OpenGL\Debug\OpenGL.exe for writing

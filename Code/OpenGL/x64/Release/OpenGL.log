@@ -1,0 +1,23 @@
+﻿  source.cpp
+  SourceMain.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  C:\OpenGL_Wrap\glfw\include\GLFW/glfw3.h(98): note: see previous definition of 'APIENTRY'
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+SourceMain.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+SourceMain.obj : error LNK2001: unresolved external symbol aiGetMaterialTextureCount
+SourceMain.obj : error LNK2001: unresolved external symbol glfwGetTime
+SourceMain.obj : error LNK2001: unresolved external symbol glfwTerminate
+SourceMain.obj : error LNK2001: unresolved external symbol SOIL_free_image_data
+SourceMain.obj : error LNK2001: unresolved external symbol glfwPollEvents
+SourceMain.obj : error LNK2001: unresolved external symbol glfwInit
+SourceMain.obj : error LNK2001: unresolved external symbol SOIL_load_image
+SourceMain.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+SourceMain.obj : error LNK2001: unresolved external symbol glfwWindowHint
+SourceMain.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+SourceMain.obj : error LNK2001: unresolved external symbol "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ)
+SourceMain.obj : error LNK2001: unresolved external symbol "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z)
+SourceMain.obj : error LNK2001: unresolved external symbol "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ)
+SourceMain.obj : error LNK2001: unresolved external symbol "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ)
+SourceMain.obj : error LNK2001: unresolved external symbol aiGetMaterialTexture
+SourceMain.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+C:\Users\Lander\OneDrive\Work\Final Year Project\OpenGL\x64\Release\OpenGL.exe : fatal error LNK1120: 17 unresolved externals
